@@ -1086,7 +1086,7 @@ def build_gles2_headers(target, source, env):
 
 def update_version():
 
-    rev = "custom_build"
+    rev = "xperidia_build"
 
     if (os.getenv("BUILD_REVISION") != None):
         rev = os.getenv("BUILD_REVISION")
